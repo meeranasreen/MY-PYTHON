@@ -1,0 +1,13 @@
+import random
+
+num_list = []
+for i in range(10):
+    num_list.append(random.randint(1, 100))
+
+max_num = max(num_list)
+min_num = min(num_list)
+avg_num = sum(num_list) / len(num_list)
+
+print(f"The maximum number is {max_num}")
+print(f"The minimum number is {min_num}")
+print(f"The average number is {avg_num}")
